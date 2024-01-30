@@ -6,11 +6,13 @@
 
 body {
     background-color: #EDF2F8;
-    /* padding: 20px; */
+    
 }
 
 .grid-container {
     justify-content: center;
+    margin-top: 70px;
+    margin-right: 70px;
     align-items: center;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -19,7 +21,7 @@ body {
 
 .g1-g4 {
     display: grid;
-    grid-gap: 15px;
+    grid-gap: 25px;
 }
 
 .g1-g2 {
@@ -40,7 +42,7 @@ body {
     padding: 10px;
     border-radius: 15px;
     width: 550px;
-    height: 280px;
+    height: 300px;
     color: white;
     background-color: hsl(263, 55%, 52%);
     background-image: url(./images/bg-pattern-quotation.svg);
@@ -52,16 +54,16 @@ body {
 .grid-2 {
     padding: 15px;
     border-radius: 15px;
-    height: 280px;
-    width: 280px;
+    height: 300px;
+    width: 290px;
     color: white;
     background-color: hsl(217, 19%, 35%);
 }
 
 .grid-3 {
     padding: 20px;
-    width: 280px;
-    height: 280px;
+    width: 290px;
+    height: 300px;
     border-radius: 15px;
     color: black;
     background-color: hsl(0, 0%, 100%);
@@ -70,7 +72,7 @@ body {
 .grid-4 {
     padding: 15px;
     width: 550px;
-    height: 280px;
+    height: 300px;
     border-radius: 15px;
     color: white;
     background-color: hsl(219, 29%, 14%)
@@ -81,7 +83,7 @@ body {
     padding: 20px;
     display: grid;
     width: 320px;
-    height: 575px;
+    height: 620px;
     border-radius: 15px;
     color: hsl(219, 29%, 14%);
     background-color: hsl(0, 0%, 100%);
@@ -126,14 +128,14 @@ body {
 }
 
 .g1-p1 {
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 10px;
 
 }
 
 .g1-p2 {
     padding: 10px;
-    font-size: 13px;
+    font-size: 12px;
     text-align: left;
     line-height: 20px;
     color: rgb(207, 207, 207);
@@ -141,7 +143,7 @@ body {
 
 .g1-p22 {
     padding: 10px;
-    font-size: 13px;
+    font-size: 12px;
     text-align: left;
     line-height: 20px;
     color: rgb(131, 131, 131);
