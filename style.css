@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #EDF2F8;
     /* padding: 20px; */
 }
+
 .grid-container {
     justify-content: center;
     align-items: center;
@@ -155,19 +156,81 @@ body{
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
-  
-  .attribution a {
+}
+
+.attribution a {
     color: blue;
     text-decoration: none;
-  }
-  
-  .attribution a:hover {
+}
+
+.attribution a:hover {
     text-decoration: none;
     color: aqua;
-  }
+}
 
 
-@media screen and (style) {
-    
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .g1-g4,
+    .g1-g2,
+    .g3-g4,
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4,
+    .grid-5 {
+        margin: 20px;
+    }
+
+    .g1-g2,
+    .g3-g4 {
+        margin: 0;
+    }
+
+    .g1-g2,
+    .g3-g4,
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4,
+    .grid-5 {
+        width: auto;
+    }
+
+    .g1-g2,
+    .g3-g4 {
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+
+    .grid-1 {
+        height: 480px;
+    }
+
+    .grid-4 {
+        height: 480px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .grid-5 {
+        width: 300px;
+        margin-left: 40px;
+        margin-bottom: 80px;
+        margin-top: 0px;
+    }
+
+    .grid-1,
+    .grid-2,
+    .grid-3 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
 }
