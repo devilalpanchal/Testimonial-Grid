@@ -28,7 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot.png)
+![Screenshot](https://github.com/devilalpanchal/Testimonial-Grid/assets/144801878/49ba59ee-cf5f-4b49-8568-dd7e0f817f42)
+
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
