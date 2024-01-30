@@ -13,8 +13,7 @@ body{
     align-items: center;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    /* grid-gap: 15px; */
-   /* margin: 30px; */
+    grid-gap: 15px;
 }
 
 .g1-g4 {
@@ -25,14 +24,14 @@ body{
 .g1-g2 {
     grid-template-columns: 1.5fr 0.8fr;
     display: grid;
-    /* grid-gap: 15px; */
+    grid-gap: 15px;
     margin: 20px 0px 0px 80px;
 }
 
 .g3-g4 {
     grid-template-columns: 0.5fr 1fr;
     display: grid;
-    /* grid-gap: 15px; */
+    grid-gap: 15px;
     margin: 0px 0px 20px 80px;
 }
 
