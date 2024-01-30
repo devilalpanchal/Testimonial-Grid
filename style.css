@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EDF2F8;
+    /* padding: 20px; */
+}
+.grid-container {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* grid-gap: 15px; */
+   /* margin: 30px; */
+}
+
+.g1-g4 {
+    display: grid;
+    grid-gap: 15px;
+}
+
+.g1-g2 {
+    grid-template-columns: 1.5fr 0.8fr;
+    display: grid;
+    /* grid-gap: 15px; */
+    margin: 20px 0px 0px 80px;
+}
+
+.g3-g4 {
+    grid-template-columns: 0.5fr 1fr;
+    display: grid;
+    /* grid-gap: 15px; */
+    margin: 0px 0px 20px 80px;
+}
+
+.grid-1 {
+    padding: 10px;
+    border-radius: 15px;
+    width: 550px;
+    height: 280px;
+    color: white;
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 60px;
+}
+
+
+.grid-2 {
+    padding: 15px;
+    border-radius: 15px;
+    height: 280px;
+    width: 280px;
+    color: white;
+    background-color: hsl(217, 19%, 35%);
+}
+
+.grid-3 {
+    padding: 20px;
+    width: 280px;
+    height: 280px;
+    border-radius: 15px;
+    color: black;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.grid-4 {
+    padding: 15px;
+    width: 550px;
+    height: 280px;
+    border-radius: 15px;
+    color: white;
+    background-color: hsl(219, 29%, 14%)
+}
+
+.grid-5 {
+    margin: 40px 0px 40px 0px;
+    padding: 20px;
+    display: grid;
+    width: 320px;
+    height: 575px;
+    border-radius: 15px;
+    color: hsl(219, 29%, 14%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.image1 {
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px white solid;
+}
+
+.image-header1 {
+    display: flex;
+    gap: 25px;
+    padding: 15px;
+
+}
+
+.para1 {
+    font-size: 18px;
+    font: bolder;
+    color: white;
+}
+
+.para2 {
+    text-align: left;
+    letter-spacing: 2px;
+    color: rgb(207, 207, 207);
+}
+
+.para11 {
+    font-size: 18px;
+    font: bolder;
+    color: black;
+}
+
+.para22 {
+    text-align: left;
+    letter-spacing: 2px;
+    color: rgb(131, 131, 131);
+}
+
+.g1-p1 {
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+.g1-p2 {
+    padding: 10px;
+    font-size: 13px;
+    text-align: left;
+    line-height: 20px;
+    color: rgb(207, 207, 207);
+}
+
+.g1-p22 {
+    padding: 10px;
+    font-size: 13px;
+    text-align: left;
+    line-height: 20px;
+    color: rgb(131, 131, 131);
+}
+
+
+.footer {
+    background-color: rgb(131, 131, 131);
+    color: hsl(219, 29%, 14%);
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .attribution a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .attribution a:hover {
+    text-decoration: none;
+    color: aqua;
+  }
+
+
+@media screen and (style) {
+    
+}
